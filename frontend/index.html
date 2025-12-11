@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List - Práctica Estudiantes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>📝 Mi Lista de Tareas</h1>
+
+        <!-- Formulario para crear nueva tarea -->
+        <div class="input-section">
+            <input type="text" id="todoInput" placeholder="Escribe una nueva tarea..." maxlength="255">
+            <button id="addBtn" onclick="createTodo()">Agregar</button>
+        </div>
+
+        <!-- Lista de tareas -->
+        <div id="todoList" class="todo-list">
+            <!-- Las tareas se cargarán aquí dinámicamente -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
